@@ -42,7 +42,7 @@ vector < vector < double > >  Transpuesta(const vector < vector < double >> &mat
 
 //Se obtiene la matriz Adjunta
 vector < vector < double > > Adjunta(const vector < vector < double >> &matriz){
-	int signos [][matriz.size()] = {
+	  vector < vector <int >>  signos  = {
 				{1,-1,1},
 				{-1,1,-1},
 				{1,-1,1}
